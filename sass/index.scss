@@ -1,0 +1,71 @@
+html {
+    scroll-padding-top: 56px;
+}
+
+#navbar{
+    & .nav-link--tickets{
+    color: #97c93e;
+    }
+    & .navbar-brand--img{
+        width: 80px;
+    }
+}
+
+.nav-link{
+    font-weight: bold;
+    &.active{
+        background-color: #82ad36;
+    }
+}
+
+
+.footer{
+    background: #03091e;
+    &--link{
+        color: white;
+        text-decoration: none;
+    }
+
+}
+
+.carousel{
+    position: relative;
+    &-item--img{
+        max-height: 70vh;
+        object-fit: cover;
+        filter: grayscale(70%);
+    }
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    &--text{
+        font-size: 20px;
+    }
+}
+
+.btn-success__green{
+    background-color: #97c93e;
+    color: white;
+    &:hover{
+        background-color: #82ad36;
+    }
+    
+}
+#speakers .card--img__leonidas{
+    max-height: 100%;
+    object-fit: cover;
+}
+.form-control--textarea{
+    resize: none;
+}
+
+#orador .orador--abbreviation{
+    color: #82ad36;
+    text-decoration:underline;
+}
